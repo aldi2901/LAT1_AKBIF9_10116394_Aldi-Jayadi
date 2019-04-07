@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="40dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="40dp"
+    android:background="#dedede"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nunito_font"
+        android:text="@string/tv_nama"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_nama"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:hint="Contoh : Budi" />
+
+    <TextView
+        android:id="@+id/tv_umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_nama"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nunito_font"
+        android:text="@string/tv_umur"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_umur"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_umur"
+        android:gravity="center_vertical"
+        android:hint="Contoh : 12" />
+
+    <Button
+        android:id="@+id/btn_selanjutnya"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedbutton"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/nunito_font"/>
+</RelativeLayout>

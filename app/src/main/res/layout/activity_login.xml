@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#dedede"
+        android:layout_weight="4"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:text="@string/txt_op2"
+            android:fontFamily="@font/nunito_font"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_font"
+            android:text="@string/txt_op1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@android:color/white" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/rubik_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/ketentuan"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:text="Masuk"
+            android:id="@+id/btn_masuk"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nunito_font"/>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f2f2f2"
+        android:layout_weight="1"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp">
+        <TextView
+            android:id="@+id/txt_kode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kode"
+            android:fontFamily="@font/rubik_font"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btn_kode"
+            android:layout_below="@id/txt_kode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kode_btn"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/nunito_font"
+            android:background="@drawable/roundedbuttonnetral"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

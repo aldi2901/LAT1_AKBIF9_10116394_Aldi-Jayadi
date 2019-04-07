@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas1</string>
+    <string name="txt_opening">Monitory Membantu Anda\n Mengontrol HP Anak</string>
+    <string name="kode">Belum punya kode keluarga?</string>
+    <string name="kode_btn">Beli Kode Keluarga Disini</string>
+    <string name="ketentuan">Dengan menekan tombol masuk berarti Anda menyetujui\n <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="txt_op1">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="txt_op2">Kode Keluarga</string>
+    <string name="tv_nama">Nama Panggilan Kamu</string>
+    <string name="tv_umur">Umur Kamu</string>
+</resources>
